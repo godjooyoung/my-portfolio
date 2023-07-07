@@ -18,6 +18,7 @@ export const IntroWrap = styled.div`
     justify-content: center;
 `
 export const IntroTitle = styled.h1`
+    margin-top: 5vh;
     font-size: 72px;
     font-weight: 700;
     text-align: center;

@@ -17,6 +17,7 @@ export const SkillWrap = styled.div`
     background-color: var(--bg-01);
 `
 export const SkillTitle = styled.h1`
+    margin-top: 5vh;
     font-size: 72px;
     font-weight: 700;
     text-align: center;

@@ -4,12 +4,12 @@ import { styled } from 'styled-components';
 function Header() {
     return (
         <CommonHeader>
-            <div>JOOYOUNG</div>
+            <div>DEV JOOYOUNG</div>
             <div>INTRO</div>
             <div>ABOUT</div>
             <div>SKILL</div>
             <div>PROJECTS</div>
-            <div>CAREER</div>
+            <div>EXPERIENCES</div>
             <div>CONTECT</div>
         </CommonHeader>
     );

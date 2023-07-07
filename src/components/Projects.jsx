@@ -16,6 +16,7 @@ export const ProjectsWrap = styled.div`
     background-color: var(--bg-00);
 `
 export const ProjectsTitle = styled.h1`
+    margin-top: 5vh;
     font-size: 72px;
     font-weight: 700;
     text-align: center;
