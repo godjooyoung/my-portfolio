@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 
 function About() {
     return (
-        <AboutWrap>
+        <AboutWrap id="about">
             <AboutTitle>ABOUT</AboutTitle>
             <AboutContentWrap>
                 <div>
@@ -13,7 +13,8 @@ function About() {
                 <p>
                 함께 일하고 싶은 개발자가 되고자 합니다.<br/>
                 서로 지식을 공유하고 성장하는 개발자 문화를 좋아합니다.<br/>
-                오래 살아남는 코드를 추구하며 서비스를 만드는 생산자라는 자부심으로 일합니다.<br/>
+                간단하면서 오래 살아남는 코드를 추구하며, 서비스를 만드는 생산자라는 자부심으로 일합니다.<br/>
+                시각적으로 보여지는 것에 재미를 느껴 프론트앤드 개발을 시작하였습니다.<br/>
                 사용자가 제가 만든 서비스를 사용할 때 기쁨을 느낍니다.<br/>
                 </p>
 
@@ -25,9 +26,11 @@ function About() {
 export const AboutWrap = styled.div`
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 54px);
     background-color: var(--bg-00);
     margin-top: 54px;
+    padding-bottom: 5vh;
+    height: fit-content;
+    background: linear-gradient(180deg, rgba(14,17,23,1) 0%, rgba(32,35,40,1) 64%, rgba(40,44,52,1) 87%);
 `
 
 export const AboutTitle = styled.h1`

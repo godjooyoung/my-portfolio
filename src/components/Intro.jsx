@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { styled } from 'styled-components';
 
 function Intro(props) {
     return (
-        <IntroWrap>
+        <IntroWrap id="intro">
             <IntroSubTitle>Portfolio</IntroSubTitle>
             <IntroTitle>Jooyoung Shin</IntroTitle>
             <IntroSubTitle>Front-End Developer</IntroSubTitle>
@@ -18,7 +18,6 @@ export const IntroWrap = styled.div`
     justify-content: center;
 `
 export const IntroTitle = styled.h1`
-    margin-top: 5vh;
     font-size: 72px;
     font-weight: 700;
     text-align: center;
